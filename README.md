@@ -8,7 +8,7 @@ A shell script that automatically categorizes files in a target directory into o
 
 ### Features
 - Default directory target: `~/Downloads` (or custom path passed as an argument).
-- Automatically sorts Documents (`.pdf`, `.pptx`), Pictures (`.png`, `.jpg`), Audio (`.mp3`), and Videos (`.mp4`, `.wav`).
+- Automatically sorts Documents (`.pdf`, `.pptx`), Pictures (`.png`, `.jpg`), Audio (`.mp3`, `.wav`), and Videos (`.mp4`).
 - Uses non-overwriting moves (`mv -n`) for safety.
 
 ### Usage
