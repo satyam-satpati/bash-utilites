@@ -10,8 +10,8 @@ find "$DIR" -maxdepth 1 -type f \
    \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) \
   -exec mv -n {} "$DIR/PICTURES/" \; 
 
-find "$DIR" -maxdepth 1 -type f -iname '*.mp3' \
+find "$DIR" -maxdepth 1 -type f \( -iname '*.mp3' -o -iname '*.wav' \) \
   -exec mv -n {} "$DIR/AUDIO/" \;
 
-find "$DIR" -maxdepth 1 -type f \( -iname '*.mp4' -o -iname '*.wav' \) \
+find "$DIR" -maxdepth 1 -type f -iname '*.mp4' \
   -exec mv -n {} "$DIR/VIDEO/" \;
