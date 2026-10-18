@@ -2,7 +2,7 @@
 
 A collection of lightweight Bash scripts designed for system maintenance and directory organization.
 
-## `auto1.sh` - Automatic File Organizer
+## `Fileorganiseauto.sh` - Automatic File Organizer
 
 A shell script that automatically categorizes files in a target directory into organized subfolders based on file extensions.
 
@@ -13,5 +13,5 @@ A shell script that automatically categorizes files in a target directory into o
 
 ### Usage
 ```bash
-chmod +x auto1.sh
-./auto1.sh /optional/path/to/directory
+chmod +x Fileorganiseauto.sh
+./Fileorganiseauto.sh /optional/path/to/directory
